@@ -1,13 +1,14 @@
-<div class="product-card">
+@* Product card component *@
+<div class="product-card-horizontal">
     <img src="@Image" alt="@Name" />
-    
-    <h4>@Name</h4>
-    
-    <p class="price">Price: Rs. @Price</p>
-    
-    <p class="likes">❤️ Likes: @Likes</p>
+    <div class="product-info">
+        <h4>@Name</h4>
+        <p class="price">Price: Rs. @Price</p>
+        <p class="likes">❤️ Likes: @Likes</p>
+    </div>
 </div>
 
+@* Parameters *@
 @code {
     [Parameter]
     public string Image { get; set; }

@@ -3,8 +3,44 @@
 
 <h2>Products</h2>
 
+@* Task 1 *@
+<!--
 <ul>
     <li>Laptop</li>
     <li>Smartphone</li>
     <li>Headphones</li>
 </ul>
+-->
+
+@* Task 2  *@
+<div class="products-container">
+    @foreach (var product in products)
+    {
+        <ProductCard
+            Image="@product.Image"
+            Name="@product.Name"
+            Price="@product.Price"
+            Likes="@product.Likes" />
+    }
+</div>
+
+@code {
+    // Product class
+    public class Product
+    {
+        public string Image { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public int Likes { get; set; }
+    }
+
+    // List of products
+    private List<Product> products = new()
+    {
+        new Product { Name="Apple MacBook Air M1 13\"", Price=104900, Likes=120, Image="https://cdn2.blanxer.com/uploads/682feff88c633f25b4c7ce32/product_image-mackbook-air-m1-3757.webp" },
+        new Product { Name="Apple iPhone Air", Price=200999, Likes=210, Image="https://cdn2.blanxer.com/uploads/682feff88c633f25b4c7ce32/product_image-apple-iphone-17-air-colours-and-price-in-nepal-3251.webp" },
+        new Product { Name="Sony ULT", Price=35000, Likes=95, Image="https://cdn2.blanxer.com/uploads/682feff88c633f25b4c7ce32/product_image-sony-ult-wear-wireless-headphones-2272.webp" },
+        new Product { Name="Keychron K10 HE", Price=24000, Likes=60, Image="https://cdn2.blanxer.com/uploads/682feff88c633f25b4c7ce32/product_image-keychron-k10-he-wireless-magnetic-switch-custom-keyboard-black-7897.webp" },
+        new Product { Name="Apple Magic Mouse 2", Price=14500, Likes=80, Image="https://cdn2.blanxer.com/uploads/682feff88c633f25b4c7ce32/product_image-apple-magic-mouse-2-9450.webp" }
+    };
+}

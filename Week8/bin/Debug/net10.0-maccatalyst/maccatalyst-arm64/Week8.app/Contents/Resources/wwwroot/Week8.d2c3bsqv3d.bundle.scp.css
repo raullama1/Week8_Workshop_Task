@@ -212,31 +212,35 @@ main[b-98gwftildw] {
 /* /Components/ProductCard.razor.rz.scp.css */
 .products-container[b-981ammogta] {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
-.product-card-horizontal[b-981ammogta] {
-    display: flex;
-    align-items: center;
-    width: 500px;
+.product-card[b-981ammogta] {
+    width: 250px;
     border-radius: 12px;
     box-shadow: 0 6px 16px rgba(0,0,0,0.15);
     padding: 15px;
-    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
     background-color: white;
 }
 
-.product-card-horizontal img[b-981ammogta] {
-    width: 150px;
+.product-card:hover[b-981ammogta] {
+    transform: translateY(-5px);
+}
+
+.product-card img[b-981ammogta] {
+    width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: 10px;
-    margin-right: 20px;
 }
 
-.product-info h4[b-981ammogta] {
-    margin: 0 0 10px 0;
+.product-card h4[b-981ammogta] {
+    margin-top: 10px;
 }
 
 .price[b-981ammogta] {
