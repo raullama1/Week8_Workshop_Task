@@ -92,12 +92,12 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>7co791o044</Fingerprint>
-      <Integrity>Cbzr6X5q6YvqGS8aiyUxs64t3DdSWhUrIUJdi4flm/Q=</Integrity>
+      <Fingerprint>juvdjg24oj</Fingerprint>
+      <Integrity>ezUmvg68f8d9nWuRWzpAC/t/tfGq6ncHd+Yu6+qtc7Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>7391</FileLength>
-      <LastWriteTime>Mon, 15 Dec 2025 08:22:10 GMT</LastWriteTime>
+      <FileLength>8122</FileLength>
+      <LastWriteTime>Mon, 15 Dec 2025 08:36:56 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Week8.styles.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\_framework\blazor.modules.json'))">

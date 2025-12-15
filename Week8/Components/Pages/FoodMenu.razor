@@ -1,0 +1,31 @@
+@page "/foodmenu"
+@layout MainLayout
+
+<h2>Food Menu</h2>
+
+<div class="food-container">
+    @foreach (var item in items)
+    {
+        <ItemCard Name="@item.Name" Ingredients="@item.Ingredients" Price="@item.Price" />
+    }
+</div>
+
+@code {
+    // Food item class
+    public class Item
+    {
+        public string Name { get; set; }
+        public string Ingredients { get; set; }
+        public decimal Price { get; set; }
+    }
+
+    // Sample list of food items
+    private List<Item> items = new()
+    {
+        new Item { Name="Burger", Ingredients="Bun, Patty, Lettuce, Tomato", Price=250 },
+        new Item { Name="Pizza", Ingredients="Cheese, Tomato Sauce, Toppings", Price=500 },
+        new Item { Name="Pasta", Ingredients="Pasta, Tomato Sauce, Cheese", Price=350 },
+        new Item { Name="Sandwich", Ingredients="Bread, Lettuce, Tomato, Cheese", Price=200 },
+        new Item { Name="French Fries", Ingredients="Potatoes, Salt, Oil", Price=150 }
+    };
+}
