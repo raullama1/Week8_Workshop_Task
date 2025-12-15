@@ -1,0 +1,39 @@
+@page "/calculator"
+@layout ProductLayout
+
+<h2>Calculator</h2>
+
+<div class="calculator">
+    <!-- Input fields with two-way binding -->
+    <input type="number" @bind="Number1" placeholder="Enter first number" />
+    <input type="number" @bind="Number2" placeholder="Enter second number" />
+
+    <!-- Operation buttons -->
+    <div class="buttons">
+        <button @onclick="Add">Add (+)</button>
+        <button @onclick="Subtract">Subtract (-)</button>
+        <button @onclick="Multiply">Multiply (×)</button>
+        <button @onclick="Divide">Divide (÷)</button>
+    </div>
+
+    <!-- Display result -->
+    <h3>Result: @Result</h3>
+</div>
+
+@code {
+    // Two-way bound input numbers
+    private double Number1 { get; set; }
+    private double Number2 { get; set; }
+
+    // Result of calculation
+    private double Result { get; set; }
+
+    // Event handlers for each operation
+    private void Add() => Result = Number1 + Number2;
+
+    private void Subtract() => Result = Number1 - Number2;
+
+    private void Multiply() => Result = Number1 * Number2;
+
+    private void Divide() => Result = Number2 != 0 ? Number1 / Number2 : 0;
+}
