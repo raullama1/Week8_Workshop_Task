@@ -1,0 +1,23 @@
+<div class="product-card">
+    <img src="@Image" alt="@Name" />
+    
+    <h4>@Name</h4>
+    
+    <p class="price">Price: Rs. @Price</p>
+    
+    <p class="likes">❤️ Likes: @Likes</p>
+</div>
+
+@code {
+    [Parameter]
+    public string Image { get; set; }
+
+    [Parameter]
+    public string Name { get; set; }
+
+    [Parameter]
+    public decimal Price { get; set; }
+
+    [Parameter]
+    public int Likes { get; set; }
+}
