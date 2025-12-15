@@ -3,6 +3,13 @@
 
 <h2>Food Menu</h2>
 
+@* Sorting Buttons *@
+<div class="sort-buttons">
+    <button @onclick="SortByName">Sort by Name</button>
+    <button @onclick="SortByPrice">Sort by Price</button>
+</div>
+
+@* Food items display *@
 <div class="food-container">
     @foreach (var item in items)
     {
@@ -28,4 +35,16 @@
         new Item { Name="Sandwich", Ingredients="Bread, Lettuce, Tomato, Cheese", Price=200 },
         new Item { Name="French Fries", Ingredients="Potatoes, Salt, Oil", Price=150 }
     };
+
+    // Sort by Name using LINQ
+    private void SortByName()
+    {
+        items = items.OrderBy(i => i.Name).ToList();
+    }
+
+    // Sort by Price using LINQ
+    private void SortByPrice()
+    {
+        items = items.OrderBy(i => i.Price).ToList();
+    }
 }

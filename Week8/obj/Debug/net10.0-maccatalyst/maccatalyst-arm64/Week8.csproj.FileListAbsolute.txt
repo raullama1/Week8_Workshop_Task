@@ -352,6 +352,8 @@
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/scopedcss/Components/Layout/ProductLayout.razor.rz.scp.css
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/scopedcss/Components/ProductCard.razor.rz.scp.css
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/scopedcss/Components/Pages/Calculator.razor.rz.scp.css
+/Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/scopedcss/Components/ItemCard.razor.rz.scp.css
+/Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/scopedcss/Components/Pages/FoodMenu.razor.rz.scp.css
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.AspNetCore.Authorization.stamp
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.AspNetCore.Components.stamp
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.AspNetCore.Components.Forms.stamp
@@ -388,5 +390,3 @@
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Essentials.stamp
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Graphics.stamp
 /Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/unpack/Microsoft.Maui.Essentials/BundleResource/xml/microsoft_maui_essentials_fileprovider_file_paths.xml
-/Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/scopedcss/Components/ItemCard.razor.rz.scp.css
-/Users/tenta/Documents/week 8/Week8/Week8/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/scopedcss/Components/Pages/FoodMenu.razor.rz.scp.css
